@@ -1,0 +1,33 @@
+/* members-icons */
+
+.member-socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.member-socials__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+    color: var(--social-icons-color);
+
+    border-radius: 50%;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--primary-color);
+        background-color: var(--accent-color);
+    }
+}
+
+.member-socials__icon {
+    fill: currentColor;
+}

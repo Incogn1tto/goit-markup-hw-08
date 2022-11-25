@@ -1,0 +1,34 @@
+.header__logo-web {
+    color: var(--accent-color);
+
+    font-family: var(--secondary-font);
+    @include fonts (26px, 31px);
+    // font-size: 26px;
+    // line-height: 1.2;
+    text-decoration: none;
+}
+
+.header__logo {
+    margin-right: 93px;
+
+    color: var(--primary-additional-color);
+
+    font-family: var(--secondary-font);
+    @include fonts (26px, 31px);
+    text-decoration: none;
+}
+
+.footer__logo-web {
+    color: var(--accent-color);
+
+    font-family: var(--secondary-font);
+    @include fonts (26px, 31px);
+}
+
+.footer__logo {
+    color: var(--primary-color);
+
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    @include fonts (26px, 31px);
+}

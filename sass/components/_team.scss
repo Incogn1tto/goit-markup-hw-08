@@ -1,0 +1,21 @@
+.team {
+    @extend %section;
+    background-color: var(--filter-btn-team-section-bg-color);
+
+    text-align: center;
+}
+
+.team__list {
+    display: flex;
+    gap: 30px;
+}
+
+.team__item {
+    width: 270px;
+
+    background-color: var(--primary-color);
+
+    border-radius: 0 0 4px 4px;
+
+    box-shadow: var(--primary-shadow);
+}

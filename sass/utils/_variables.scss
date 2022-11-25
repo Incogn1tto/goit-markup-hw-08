@@ -1,0 +1,62 @@
+:root {
+
+    $fontColor: green;
+    // colors
+    --primary-color: #ffffff;
+
+    // bg colors
+  
+    --secondary-bg-color: #2f303a;
+    --button-bg-color: #188CE8;
+    --filter-btn-team-section-bg-color: #F5F4FA;
+
+    // txt colors
+    --primary-text-color: #212121;
+
+    // element colors
+    --accent-color: #2196f3;
+  
+    --primary-additional-color: #000000;
+    --secondary-additional-color: #757575;
+    --primary-border-color: #EEEEEE;
+    --header-border-color: #ECECEC;
+    --social-icons-color: #AFB1B8;
+
+    // rgba
+            // shadows
+    --primary-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    --modal-shadow: rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    --filter-shadow: rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+
+    --galery-shadow: rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+
+        // gradients
+    --primary-bg-gradient: rgba(47, 48, 58, 0.8);
+    --secondary-bg-gradient: rgba(0, 0, 0, 0.15);
+    --additional-bg-gradient: rgba(0, 0, 0, 0.2);
+    --hero-bg-gradient: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
+
+    --primary-border-gradient: rgba(255, 255, 255, 0.3);
+    --additional-border-gradient: rgba(33, 33, 33, 0.2);
+    --secondary-border-gradient: rgba(0, 0, 0, 0.1);
+
+    --placeholder-gradient: rgba(117, 117, 117, 0.5);
+
+    --project-gradient: rgba(33, 150, 243, 0.9);
+
+
+    // fonts
+
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}

@@ -1,0 +1,34 @@
+/* h-contacts */
+
+.auth {
+    display: flex;
+    margin-left: auto;
+   
+}
+
+.auth__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.auth__link {
+    display: flex;
+    align-items: center;
+    color: var(--secondary-additional-color);
+
+    text-decoration: none;
+    @include fonts (14px, 16px, 500);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.auth__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}

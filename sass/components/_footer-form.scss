@@ -1,0 +1,41 @@
+.mailing-form {
+    margin-left: auto;
+}
+
+.mailing-form__title {
+    @include fonts(14px, 16px, 700);
+    
+    text-transform: uppercase;
+
+    color: var(--primary-color);
+}
+
+.mailing-form__field {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mailing-form__input {
+    padding: 16px 15px;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+
+    background-color: transparent;
+
+    border: 1px solid var(--primary-border-gradient);
+    filter: drop-shadow(0px 4px 4px var(--secondary-bg-gradient));
+    border-radius: 4px;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--primary-color);
+        outline: transparent;
+        border-color: var(--accent-color);
+    }
+}
+
