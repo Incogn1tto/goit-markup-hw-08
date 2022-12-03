@@ -2,9 +2,10 @@
 
 .hero__button {
     display: inline-block;
-    min-width: 216px;
+    min-width: 200px;
     border-radius: 4px;
-    padding: 10px 32px;
+    padding: 10px 24px;
+
 
     color: var(--primary-color);
     background-color: var(--button-bg-color);
@@ -17,6 +18,14 @@
     @include fonts (16px, 30px, 700, 0.06em);
 
     cursor: pointer;
+
+    @media screen and (min-width: $desktop) {
+        min-width: 216px;
+            border-radius: 4px;
+            padding: 10px 32px;
+    }
+        
+    
 
     &:hover,
     &:focus {

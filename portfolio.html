@@ -28,17 +28,24 @@
       </nav>
       <ul class="header-contacts">
         <li class="header-contacts__item">
-          <a class="header-contacts__link" href="mailto:info@devstudio.com"><svg class="header-contacts__icon"
-              width="16px" height="12px">
+          <a class="header-contacts__link" href="mailto:info@devstudio.com"><svg
+              class="header-contacts__icon header-contacts__icon--mail" width="16px" height="12px">
               <use href="./images/icons.svg#mail"></use>
             </svg>info@devstudio.com</a>
         </li>
 
-        <li class="item"><a class="header-contacts__link" href="tel:+380961111111"><svg class="header-contacts__icon"
-              width="10px" height="16px">
+        <li class="header-contacts__item"><a class="header-contacts__link" href="tel:+380961111111"><svg
+              class="header-contacts__icon header-contacts__icon--mobile" width="10px" height="16px">
               <use href="./images/icons.svg#phone"></use>
             </svg>+38 096 111 11 11</a></li>
       </ul>
+
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="menu-toggle-icon" width="40" height="40">
+          <use href="./images/icons.svg#burger-menu"></use>
+        </svg>
+      </button>
+
     </div>
   </header>
 
@@ -65,8 +72,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/technoriak.jpg" alt="laptop-on-white-background" width="370" height="294"
-                  class="project__picture">
+                <img src="./images/galery/dt/technoriak-mb@1x.jpg" srcset="
+                ./images/galery/dt/technoriak-mb@1x.jpg w370,
+                ./images/galery/dt/technoriak-mb@2x.jpg w740,
+                ./images/galery/tb/technoriak-mb@1x.jpg w354,
+                ./images/galery/tb/technoriak-mb@2x.jpg w708,
+                ./images/galery/mb/technoriak-mb@1x.jpg w450,
+                ./images/galery/mb/technoriak-mb@2x.jpg w900
+                " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="laptop-on-white-background" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -83,8 +97,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/new-orleans.jpg" alt="poster-basketball-players" width="370" height="294"
-                  class="project__picture">
+                <img src="./images/galery/dt/new-orleans-mb@1x-1.jpg" srcset="
+                  ./images/galery/dt/new-orleans-mb@1x-1.jpg w370,
+                  ./images/galery/dt/new-orleans-mb@2x-1.jpg w740,
+                  ./images/galery/tb/new-orleans-mb@1x-1.jpg w354,
+                  ./images/galery/tb/new-orleans-mb@2x-1.jpg w708,
+                  ./images/galery/mb/new-orleans-mb@1x-1.jpg w450,
+                  ./images/galery/mb/new-orleans-mb@2x-1.jpg w900
+                  " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="poster-basketball-players" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -101,7 +122,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/seafood.jpg" alt="restaurant-logo" width="370" height="294" class="project__picture">
+                <img srcset="./images/galery/dt/seafood-mb@1x-2.jpg" srcset="
+                  ./images/galery/dt/seafood-mb@1x-2.jpg w370,
+                  ./images/galery/dt/seafood-mb@2x-2.jpg w740,
+                  ./images/galery/tb/seafood-mb@1x-2.jpg w354,
+                  ./images/galery/tb/seafood-mb@2x-2.jpg w708,
+                  ./images/galery/mb/seafood-mb@1x-2.jpg w450,
+                  ./images/galery/mb/seafood-mb@2x-2.jpg w900
+                  " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="restaurant-logo" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -118,7 +147,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/prime.jpg" alt="headphones" width="370" height="294" class="project__picture">
+                <img src="./images/galery/dt/prime-mb@1x-3.jpg" srcset="
+                ./images/galery/dt/prime-mb@1x-3.jpg w370,
+                ./images/galery/dt/prime-mb@2x-3.jpg w740,
+                ./images/galery/tb/prime-mb@1x-3.jpg w354,
+                ./images/galery/tb/prime-mb@2x-3.jpg w708,
+                ./images/galery/mb/prime-mb@1x-3.jpg w450,
+                ./images/galery/mb/prime-mb@2x-3.jpg w900
+                " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="headphones" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -135,8 +172,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/box.jpg" alt="two-boxes-white-and-yellow" width="370" height="294"
-                  class="project__picture">
+                <img srcset="./images/galery/dt/box-mb@1x-4.jpg" srcset="
+                  ./images/galery/dt/box-mb@1x-4.jpg w370,
+                  ./images/galery/dt/box-mb@2x-4.jpg w740,
+                  ./images/galery/tb/box-mb@1x-4.jpg w354,
+                  ./images/galery/tb/box-mb@2x-4.jpg w708,
+                  ./images/galery/mb/box-mb@1x-4.jpg w450,
+                  ./images/galery/mb/box-mb@2x-4.jpg w900
+                  " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="two-boxes-white-and-yellow" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -153,7 +197,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/inspiration.jpg" alt="iMac" width="370" height="294" class="project__picture">
+                <img src="./images/galery/dt/inspiration-mb@1x-5.jpg" srcset="
+                  ./images/galery/dt/inspiration-mb@1x-5.jpg w370,
+                  ./images/galery/dt/inspiration-mb@2x-5.jpg w740,
+                  ./images/galery/tb/inspiration-mb@1x-5.jpg w354,
+                  ./images/galery/tb/inspiration-mb@2x-5.jpg w708,
+                  ./images/galery/mb/inspiration-mb@1x-5.jpg w450,
+                  ./images/galery/mb/inspiration-mb@2x-5.jpg w900
+                  " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="iMac" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -170,8 +222,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/limited-edition.jpg" alt="magazine" width="370" height="294"
-                  class="project__picture">
+                <img src="./images/galery/dt/limited-edition-mb@1x-6.jpg" srcset="
+                  ./images/galery/dt/limited-edition-mb@1x-6.jpg w370,
+                  ./images/galery/dt/limited-edition-mb@2x-6.jpg w740,
+                  ./images/galery/tb/limited-edition-mb@1x-6.jpg w354,
+                  ./images/galery/tb/limited-edition-mb@2x-6.jpg w708,
+                  ./images/galery/mb/limited-edition-mb@1x-6.jpg w450,
+                  ./images/galery/mb/limited-edition-mb@2x-6.jpg w900
+                  " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="magazine" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -188,8 +247,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/labeltag.jpg" alt="label-with-the-inscription" width="370" height="294"
-                  class="project__picture">
+                <img src="./images/galery/dt/labeltag-mb@1x-7.jpg" srcset="
+                  ./images/galery/dt/labeltag-mb@1x-7.jpg w370,
+                  ./images/galery/dt/labeltag-mb@2x-7.jpg w740,
+                  ./images/galery/tb/labeltag-mb@1x-7.jpg w354,
+                  ./images/galery/tb/labeltag-mb@2x-7.jpg w708,
+                  ./images/galery/mb/labeltag-mb@1x-7.jpg w450,
+                  ./images/galery/mb/labeltag-mb@2x-7.jpg w900
+                  " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="label-with-the-inscription" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -206,8 +272,15 @@
           <li class="galery__item">
             <a href="" class="galery__link">
               <div class="project">
-                <img src="./images/growing-business.jpg" alt="a-man-working-laptop-with" width="370" height="294"
-                  class="project__picture">
+                <img src="./images/galery/dt/growing-business-mb@1x-8.jpg" srcset="
+                  ./images/galery/dt/growing-business-mb@1x-8.jpg w370,
+                  ./images/galery/dt/growing-business-mb@2x-8.jpg w740,
+                  ./images/galery/tb/growing-business-mb@1x-8.jpg w354,
+                  ./images/galery/tb/growing-business-mb@2x-8.jpg w708,
+                  ./images/galery/mb/growing-business-mb@1x-8.jpg w450,
+                  ./images/galery/mb/growing-business-mb@2x-8.jpg w900
+                  " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  alt="a-man-working-laptop-with" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
@@ -296,6 +369,39 @@
     </div>
   </footer>
 
+  <!-- mobile menu -->
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg class="menu-toggle-icon" width="40px" height="40px">
+        <use href="./images/icons.svg#burger-close"></use>
+      </svg>
+    </button>
+
+    <ul class="mobile-menu">
+      <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студія</a></li>
+      <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link current">Портфоліо</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Контакти</a></li>
+    </ul>
+
+    <ul class="mobile-contacts">
+      <li class="mobile-contacts__item"><a href="tel:+380961111111" class="mobile-contacts__phone">+38 096 111 11 11</a>
+      </li>
+      <li class="mobile-contacts__item"><a href="mailto:info@devstudio.com"
+          class="mobile-contacts__mail">info@devstudio.com</a></li>
+    </ul>
+
+    <ul class="mobile-socials">
+      <li class="mobile-socials__item"><a href="" class="mobile-socials__link">Instagram</a></li>
+      <li class="mobile-socials__item"><a href="" class="mobile-socials__link">Twitter</a></li>
+      <li class="mobile-socials__item"><a href="" class="mobile-socials__link">Facebook</a></li>
+      <li class="mobile-socials__item"><a href="" class="mobile-socials__link">LinkedIn</a></li>
+    </ul>
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="./js/mobile-menu.js"></script>
 </body>
 
 </html>

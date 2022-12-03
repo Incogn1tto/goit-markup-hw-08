@@ -1,8 +1,20 @@
 .footer-socials {
-  margin-left: 70px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: $tablet) {
+      margin-bottom: 0;
+      margin-left: 79px;
+    }
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 0;
+    margin-left: 70px;
+    }
 }
 
 .footer-socials__title {
+  @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;

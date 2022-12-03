@@ -7,12 +7,33 @@
 }
 
 .team__list {
-    display: flex;
-    gap: 30px;
+    display: block;
+
+    @media screen and (min-width: $tablet) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+   
+    @media screen and (min-width: $desktop) {
+        display: flex;
+            gap: 30px;
+    }
 }
 
 .team__item {
-    width: 270px;
+    width: 450px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: $tablet) {
+        margin-bottom: 0;
+            width: 354px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            margin-bottom: 0;
+            width: 270px;
+        }
 
     background-color: var(--primary-color);
 

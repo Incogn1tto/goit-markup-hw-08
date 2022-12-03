@@ -5,8 +5,9 @@
 
     text-align: center;
 
-    @include fonts (36px, 42px, 700);
-    // font-weight: 700;
-    // font-size: 36px;
-    // line-height: 1.2;
+    @include fonts (28px, 33px, 700);
+   
+    @media screen and (min-width: $desktop) {
+        @include fonts (36px, 42px, 700);
+    }
 }

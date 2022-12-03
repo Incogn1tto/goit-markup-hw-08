@@ -4,9 +4,18 @@
 
 .clients__list {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 30px;
+
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
 
@@ -15,13 +24,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: solid 1px var(--social-icons-color);
     border-radius: 4px;
     fill: var(--social-icons-color);
 
-    transition-property: fill, border-color;
+    @media screen and (min-width: $tablet) {
+        width: 226px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 170px;
+    }
+
+    transition-property: fill,
+    border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 

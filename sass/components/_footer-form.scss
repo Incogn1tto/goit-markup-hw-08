@@ -1,5 +1,14 @@
 .mailing-form {
     margin-left: auto;
+
+    
+@media screen and (min-width: $tablet) {
+       margin-left: 166px;
+    }
+@media screen and (min-width: $desktop) {
+        margin-left: auto;
+    }
+
 }
 
 .mailing-form__title {
@@ -7,19 +16,37 @@
     
     text-transform: uppercase;
 
+    @media screen and (max-width: 1199px) {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
     color: var(--primary-color);
 }
 
 .mailing-form__field {
-    display: flex;
-    margin-top: 20px;
+
+    display: block;
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+            margin-top: 20px;
+    }
 }
 
 .mailing-form__input {
+    margin-bottom: 20px;
     padding: 16px 15px;
-    margin-right: 12px;
-    width: 358px;
+    width: 450px;
     height: 50px;
+
+    @media screen and (min-width: $desktop) {
+        padding: 16px 15px;
+        margin-bottom: 0;
+            margin-right: 12px;
+            width: 358px;
+            height: 50px;
+        }
 
     background-color: transparent;
 

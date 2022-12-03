@@ -38,9 +38,20 @@
 }
 
 .footer__logo {
+    padding: 60px 163px;
     color: var(--primary-color);
 
     text-decoration: none;
     font-family: var(--secondary-font);
-    @include fonts (26px, 31px);
+    @include fonts (24px, 28px);
+
+    @media screen and (min-width: $tablet) {
+            padding: 60px 115px;
+        }
+
+    @media screen and (min-width: $desktop) {
+        padding: 0;
+            margin-right: 93px;
+            @include fonts (26px, 31px);
+        }
 }
