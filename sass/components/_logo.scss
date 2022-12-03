@@ -2,20 +2,32 @@
     color: var(--accent-color);
 
     font-family: var(--secondary-font);
-    @include fonts (26px, 31px);
+    @include fonts (24px, 28px);
     // font-size: 26px;
     // line-height: 1.2;
     text-decoration: none;
+
+    @media screen and (min-width: $desktop) {
+        @include fonts (26px, 31px);
+    }
 }
 
 .header__logo {
-    margin-right: 93px;
-
+    padding: 15px 16px;
     color: var(--primary-additional-color);
 
     font-family: var(--secondary-font);
-    @include fonts (26px, 31px);
+    @include fonts (24px, 28px);
     text-decoration: none;
+
+    @media screen and (min-width: $tablet) {
+        margin-right: 87px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-right: 93px;
+            @include fonts (26px, 31px);
+        }
 }
 
 .footer__logo-web {
