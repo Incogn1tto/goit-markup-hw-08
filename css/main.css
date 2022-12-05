@@ -970,7 +970,7 @@ img {
 .footer__box {
   display: block;
 }
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 767px) {
   .footer__box {
     text-align: center;
   }
