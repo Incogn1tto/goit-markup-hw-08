@@ -6,6 +6,10 @@
 .footer__box {
     display: block;
 
+    @media screen and (max-width: 676px) {
+        text-align: center;
+    }
+
     @media screen and (min-width: $tablet) {
             display: flex;
             flex-wrap: wrap;

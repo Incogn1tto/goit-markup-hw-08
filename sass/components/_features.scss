@@ -2,7 +2,6 @@
 
 .features {
     @extend %section;
-    padding-bottom: 0;
 }
 
 
@@ -26,9 +25,12 @@
 
 .features__unit {
 
-    &:not(:last-child) {
+    @media screen and (max-width: 767xp) {
+            &:not(:last-child) {
             margin-bottom: 30px;
         }
+        }
+    
 
     @media screen and (min-width: $tablet) {
         margin-bottom: 0;
@@ -47,7 +49,6 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    width: 450px;
     height: 120px;
 
     @media screen and (min-width: $tablet) {

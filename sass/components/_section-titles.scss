@@ -1,5 +1,5 @@
 .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     color: var(--primary-text-color);
 
@@ -8,6 +8,7 @@
     @include fonts (28px, 33px, 700);
    
     @media screen and (min-width: $desktop) {
+        margin-bottom: 50px;
         @include fonts (36px, 42px, 700);
     }
 }
