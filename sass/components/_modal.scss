@@ -6,10 +6,17 @@
     min-height: 609px;
 
 
+    @media screen and (max-width: 1199px) {
+        width: 95%;
+        max-width: 450px;
+        height: 95%;
+        max-height: 609px;
+        overflow: scroll;
+    }
 
     @media screen and (min-width: $desktop) {
         width: 528px;
-        min-height: 581px;
+        height: 581px;
     }
     border-radius: 4px;
 

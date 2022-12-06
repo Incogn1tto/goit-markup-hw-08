@@ -43,9 +43,9 @@
 .project__descr {
     padding: 20px 24px;
 
-    @media screen and (min-width: $tablet) {
-        min-height: 146px;
-    }
+    @media screen and (min-width: $tablet) and (max-width: 1199px) {
+            flex-grow: 1;
+        }
     border: solid var(--primary-border-color) 1px;
 }
 
