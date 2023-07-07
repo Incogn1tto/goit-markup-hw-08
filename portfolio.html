@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   <!-- styles -->
   <link rel="stylesheet" href="./css/main.min.css">
-  <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -21,9 +21,9 @@
       <a href="./index.html" class="header__logo"><span class="header__logo-web">Web</span>Studio</a>
       <nav>
         <ul class="header__nav">
-          <li class="header__item"><a href="./index.html" class="header__link">Студія</a></li>
-          <li class="header__item"><a href="./portfolio.html" class="header__link current">Портфоліо</a></li>
-          <li class="header__item"><a href="./index.html" class="header__link">Контакти</a></li>
+          <li class="header__item"><a href="./index.html" class="header__link">Studio</a></li>
+          <li class="header__item"><a href="./portfolio.html" class="header__link current">Portfolio</a></li>
+          <li class="header__item"><a href="#contacts" class="header__link">Contacts</a></li>
         </ul>
       </nav>
       <ul class="header-contacts">
@@ -54,16 +54,16 @@
   <main>
     <section class="portfolio-section">
       <div class="container">
-        <h1 class="visually-hidden">Наші роботи</h1>
+        <h1 class="visually-hidden">Our works</h1>
 
         <!-- filter buttons -->
 
         <ul class="filter">
-          <li><button type="button" class="filter__button current">Усі</button></li>
-          <li><button type="button" class="filter__button">Веб-сайти</button></li>
-          <li><button type="button" class="filter__button">Додатки</button></li>
-          <li><button type="button" class="filter__button">Дизайн</button></li>
-          <li><button type="button" class="filter__button">Маркетинг</button></li>
+          <li><button type="button" class="filter__button current">All</button></li>
+          <li><button type="button" class="filter__button">Websites</button></li>
+          <li><button type="button" class="filter__button">Applications</button></li>
+          <li><button type="button" class="filter__button">Design</button></li>
+          <li><button type="button" class="filter__button">Marketing</button></li>
         </ul>
 
         <!-- images galery -->
@@ -73,24 +73,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img src="./images/galery/dt/technoriak-mb@1x.jpg" srcset="
-                ./images/galery/dt/technoriak-mb@1x.jpg w370,
-                ./images/galery/dt/technoriak-mb@2x.jpg w740,
-                ./images/galery/tb/technoriak-mb@1x.jpg w354,
-                ./images/galery/tb/technoriak-mb@2x.jpg w708,
-                ./images/galery/mb/technoriak-mb@1x.jpg w450,
-                ./images/galery/mb/technoriak-mb@2x.jpg w900
+                ./images/galery/dt/technoriak-mb@1x.jpg 370w,
+                ./images/galery/dt/technoriak-mb@2x.jpg 740w,
+                ./images/galery/tb/technoriak-mb@1x.jpg 354w,
+                ./images/galery/tb/technoriak-mb@2x.jpg 708w,
+                ./images/galery/mb/technoriak-mb@1x.jpg 450w,
+                ./images/galery/mb/technoriak-mb@2x.jpg 900w
                 " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="laptop-on-white-background" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
-                <h2 class="project__title">Технокряк</h2>
-                <p class="project__name">Веб-сайт</p>
+                <h2 class="project__title">Technokriak</h2>
+                <p class="project__name">Website</p>
               </div>
             </a>
           </li>
@@ -98,24 +99,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img src="./images/galery/dt/new-orleans-mb@1x-1.jpg" srcset="
-                  ./images/galery/dt/new-orleans-mb@1x-1.jpg w370,
-                  ./images/galery/dt/new-orleans-mb@2x-1.jpg w740,
-                  ./images/galery/tb/new-orleans-mb@1x-1.jpg w354,
-                  ./images/galery/tb/new-orleans-mb@2x-1.jpg w708,
-                  ./images/galery/mb/new-orleans-mb@1x-1.jpg w450,
-                  ./images/galery/mb/new-orleans-mb@2x-1.jpg w900
+                  ./images/galery/dt/new-orleans-mb@1x-1.jpg 370w,
+                  ./images/galery/dt/new-orleans-mb@2x-1.jpg 740w,
+                  ./images/galery/tb/new-orleans-mb@1x-1.jpg 354w,
+                  ./images/galery/tb/new-orleans-mb@2x-1.jpg 708w,
+                  ./images/galery/mb/new-orleans-mb@1x-1.jpg 450w,
+                  ./images/galery/mb/new-orleans-mb@2x-1.jpg 900w
                   " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="poster-basketball-players" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
-                <h2 class="project__title">Постер New Orlean vs Golden Star</h2>
-                <p class="project__name">Дизайн</p>
+                <h2 class="project__title">Poster New Orlean vs Golden Star</h2>
+                <p class="project__name">Design</p>
               </div>
             </a>
           </li>
@@ -123,24 +125,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img srcset="./images/galery/dt/seafood-mb@1x-2.jpg" srcset="
-                  ./images/galery/dt/seafood-mb@1x-2.jpg w370,
-                  ./images/galery/dt/seafood-mb@2x-2.jpg w740,
-                  ./images/galery/tb/seafood-mb@1x-2.jpg w354,
-                  ./images/galery/tb/seafood-mb@2x-2.jpg w708,
-                  ./images/galery/mb/seafood-mb@1x-2.jpg w450,
-                  ./images/galery/mb/seafood-mb@2x-2.jpg w900
+                  ./images/galery/dt/seafood-mb@1x-2.jpg 370w,
+                  ./images/galery/dt/seafood-mb@2x-2.jpg 740w,
+                  ./images/galery/tb/seafood-mb@1x-2.jpg 354w,
+                  ./images/galery/tb/seafood-mb@2x-2.jpg 708w,
+                  ./images/galery/mb/seafood-mb@1x-2.jpg 450w,
+                  ./images/galery/mb/seafood-mb@2x-2.jpg 900w
                   " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="restaurant-logo" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
-                <h2 class="project__title">Ресторан Seafood</h2>
-                <p class="project__name">Додаток</p>
+                <h2 class="project__title">Restaurant Seafood</h2>
+                <p class="project__name">Application</p>
               </div>
             </a>
           </li>
@@ -148,24 +151,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img src="./images/galery/dt/prime-mb@1x-3.jpg" srcset="
-                ./images/galery/dt/prime-mb@1x-3.jpg w370,
-                ./images/galery/dt/prime-mb@2x-3.jpg w740,
-                ./images/galery/tb/prime-mb@1x-3.jpg w354,
-                ./images/galery/tb/prime-mb@2x-3.jpg w708,
-                ./images/galery/mb/prime-mb@1x-3.jpg w450,
-                ./images/galery/mb/prime-mb@2x-3.jpg w900
+                ./images/galery/dt/prime-mb@1x-3.jpg 370w,
+                ./images/galery/dt/prime-mb@2x-3.jpg 740w,
+                ./images/galery/tb/prime-mb@1x-3.jpg 354w,
+                ./images/galery/tb/prime-mb@2x-3.jpg 708w,
+                ./images/galery/mb/prime-mb@1x-3.jpg 450w,
+                ./images/galery/mb/prime-mb@2x-3.jpg 900w
                 " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="headphones" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
-                <h2 class="project__title">Проєкт Prime</h2>
-                <p class="project__name">Маркетинг</p>
+                <h2 class="project__title">Project Prime</h2>
+                <p class="project__name">Marketing</p>
               </div>
             </a>
           </li>
@@ -173,24 +177,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img srcset="./images/galery/dt/box-mb@1x-4.jpg" srcset="
-                  ./images/galery/dt/box-mb@1x-4.jpg w370,
-                  ./images/galery/dt/box-mb@2x-4.jpg w740,
-                  ./images/galery/tb/box-mb@1x-4.jpg w354,
-                  ./images/galery/tb/box-mb@2x-4.jpg w708,
-                  ./images/galery/mb/box-mb@1x-4.jpg w450,
-                  ./images/galery/mb/box-mb@2x-4.jpg w900
+                  ./images/galery/dt/box-mb@1x-4.jpg 370w,
+                  ./images/galery/dt/box-mb@2x-4.jpg 740w,
+                  ./images/galery/tb/box-mb@1x-4.jpg 354w,
+                  ./images/galery/tb/box-mb@2x-4.jpg 708w,
+                  ./images/galery/mb/box-mb@1x-4.jpg 450w,
+                  ./images/galery/mb/box-mb@2x-4.jpg 900w
                   " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="two-boxes-white-and-yellow" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
-                <h2 class="project__title">Проєкт Boxes</h2>
-                <p class="project__name">Додаток</p>
+                <h2 class="project__title">Project Boxes</h2>
+                <p class="project__name">Application</p>
               </div>
             </a>
           </li>
@@ -198,24 +203,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img src="./images/galery/dt/inspiration-mb@1x-5.jpg" srcset="
-                  ./images/galery/dt/inspiration-mb@1x-5.jpg w370,
-                  ./images/galery/dt/inspiration-mb@2x-5.jpg w740,
-                  ./images/galery/tb/inspiration-mb@1x-5.jpg w354,
-                  ./images/galery/tb/inspiration-mb@2x-5.jpg w708,
-                  ./images/galery/mb/inspiration-mb@1x-5.jpg w450,
-                  ./images/galery/mb/inspiration-mb@2x-5.jpg w900
+                  ./images/galery/dt/inspiration-mb@1x-5.jpg 370w,
+                  ./images/galery/dt/inspiration-mb@2x-5.jpg 740w,
+                  ./images/galery/tb/inspiration-mb@1x-5.jpg 354w,
+                  ./images/galery/tb/inspiration-mb@2x-5.jpg 708w,
+                  ./images/galery/mb/inspiration-mb@1x-5.jpg 450w,
+                  ./images/galery/mb/inspiration-mb@2x-5.jpg 900w
                   " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="iMac" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
                 <h2 class="project__title">Inspiration has no Borders</h2>
-                <p class="project__name">Веб-сайт</p>
+                <p class="project__name">Website</p>
               </div>
             </a>
           </li>
@@ -223,24 +229,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img src="./images/galery/dt/limited-edition-mb@1x-6.jpg" srcset="
-                  ./images/galery/dt/limited-edition-mb@1x-6.jpg w370,
-                  ./images/galery/dt/limited-edition-mb@2x-6.jpg w740,
-                  ./images/galery/tb/limited-edition-mb@1x-6.jpg w354,
-                  ./images/galery/tb/limited-edition-mb@2x-6.jpg w708,
-                  ./images/galery/mb/limited-edition-mb@1x-6.jpg w450,
-                  ./images/galery/mb/limited-edition-mb@2x-6.jpg w900
+                  ./images/galery/dt/limited-edition-mb@1x-6.jpg 370w,
+                  ./images/galery/dt/limited-edition-mb@2x-6.jpg 740w,
+                  ./images/galery/tb/limited-edition-mb@1x-6.jpg 354w,
+                  ./images/galery/tb/limited-edition-mb@2x-6.jpg 708w,
+                  ./images/galery/mb/limited-edition-mb@1x-6.jpg 450w,
+                  ./images/galery/mb/limited-edition-mb@2x-6.jpg 900w
                   " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="magazine" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
-                <h2 class="project__title">Видання Limited Edition</h2>
-                <p class="project__name">Дизайн</p>
+                <h2 class="project__title">Publication Limited Edition</h2>
+                <p class="project__name">Design</p>
               </div>
             </a>
           </li>
@@ -248,24 +255,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img src="./images/galery/dt/labeltag-mb@1x-7.jpg" srcset="
-                  ./images/galery/dt/labeltag-mb@1x-7.jpg w370,
-                  ./images/galery/dt/labeltag-mb@2x-7.jpg w740,
-                  ./images/galery/tb/labeltag-mb@1x-7.jpg w354,
-                  ./images/galery/tb/labeltag-mb@2x-7.jpg w708,
-                  ./images/galery/mb/labeltag-mb@1x-7.jpg w450,
-                  ./images/galery/mb/labeltag-mb@2x-7.jpg w900
+                  ./images/galery/dt/labeltag-mb@1x-7.jpg 370w,
+                  ./images/galery/dt/labeltag-mb@2x-7.jpg 740w,
+                  ./images/galery/tb/labeltag-mb@1x-7.jpg 354w,
+                  ./images/galery/tb/labeltag-mb@2x-7.jpg 708w,
+                  ./images/galery/mb/labeltag-mb@1x-7.jpg 450w,
+                  ./images/galery/mb/labeltag-mb@2x-7.jpg 900w
                   " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="label-with-the-inscription" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
-                <h2 class="project__title">Проєкт LAB</h2>
-                <p class="project__name">Маркетинг</p>
+                <h2 class="project__title">Project LAB</h2>
+                <p class="project__name">Marketing</p>
               </div>
             </a>
           </li>
@@ -273,24 +281,25 @@
             <a href="" class="galery__link">
               <div class="project">
                 <img src="./images/galery/dt/growing-business-mb@1x-8.jpg" srcset="
-                  ./images/galery/dt/growing-business-mb@1x-8.jpg w370,
-                  ./images/galery/dt/growing-business-mb@2x-8.jpg w740,
-                  ./images/galery/tb/growing-business-mb@1x-8.jpg w354,
-                  ./images/galery/tb/growing-business-mb@2x-8.jpg w708,
-                  ./images/galery/mb/growing-business-mb@1x-8.jpg w450,
-                  ./images/galery/mb/growing-business-mb@2x-8.jpg w900
+                  ./images/galery/dt/growing-business-mb@1x-8.jpg 370w,
+                  ./images/galery/dt/growing-business-mb@2x-8.jpg 740w,
+                  ./images/galery/tb/growing-business-mb@1x-8.jpg 354w,
+                  ./images/galery/tb/growing-business-mb@2x-8.jpg 708w,
+                  ./images/galery/mb/growing-business-mb@1x-8.jpg 450w,
+                  ./images/galery/mb/growing-business-mb@2x-8.jpg 900w
                   " sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="a-man-working-laptop-with" width="450" height="294" class="project__picture">
                 <div class="project__overlay">
                   <p class="project__overlay-txt">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це
-                    дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    The resource offers comprehensive offers with different levels of functionality and services. All
+                    that
+                    will allow the visitor to get comprehensive information about the company or private person.
                   </p>
                 </div>
               </div>
               <div class="project__descr">
                 <h2 class="project__title">Growing Business</h2>
-                <p class="project__name">Додаток</p>
+                <p class="project__name">Application</p>
               </div>
             </a>
           </li>
@@ -306,10 +315,10 @@
       <div>
         <a href="./index.html" class="footer__logo"><span class="footer__logo-web">Web</span>Studio</a>
         <address>
-          <ul class="contacts">
+          <ul id="contacts" class="contacts">
             <li><a href="https://goo.gl/maps/o2TQQZk8zwePnfFG6" rel="noopener nofollow noreferrer" target="_blank"
-                class="contacts__address">м. Київ,
-                пр-т Лесі Українки,
+                class="contacts__address">Kyiv,
+                Lesi Ukrainky avenue,
                 26</a>
             </li>
             <li class="contacts__item"><a href="mailto:info@devstudio.com" class="contacts__mail">info@devstudio.com</a>
@@ -322,7 +331,7 @@
       <!-- f-socials -->
       <div class="footer-socials">
         <p class="footer-socials__title">
-          приєднуйтесь
+          Join in
         </p>
         <ul class="footer-socials__list">
           <li class="footer-socials__item">
@@ -354,11 +363,11 @@
 
       <!-- f-form -->
       <div class="mailing-form">
-        <p class="mailing-form__title">Підпишіться на розсилку</p>
+        <p class="mailing-form__title">Subscribe to the newsletter</p>
         <form action="" class="mailing-form__field">
           <input class="mailing-form__input" type="email" name="user-email" id="e-mail" placeholder="E-mail">
           <button class="mailing-form__btn" type="submit">
-            Підписатися
+            Sign up
             <svg class="mailing-form__icon" width="24px" height="24px">
               <use href="./images/icons.svg#send"></use>
             </svg>
@@ -378,9 +387,9 @@
     </button>
 
     <ul class="mobile-menu">
-      <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студія</a></li>
-      <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link current">Портфоліо</a></li>
-      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Контакти</a></li>
+      <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Studio</a></li>
+      <li class="mobile-menu__item"><a href="./portfolio.html" class="mobile-menu__link current">Portfolio</a></li>
+      <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Contacts</a></li>
     </ul>
 
     <ul class="mobile-contacts">
